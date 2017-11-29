@@ -1,5 +1,7 @@
 # Jam_Bottle_Detector
 
+First a conda environment with needed dependencies should be set-up to run the detector. Use the CPU or GPU versions approach dpeending on the feesibility of implimenting them in your system.
+
 ## Steps For Iinstalling Dependancies (CPU version)
 
 1. **Install Anaconda**
