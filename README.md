@@ -1,19 +1,41 @@
 # Jam_Bottle_Detector
 
-## Steps For Iinstalling Dependancies
+## Steps For Iinstalling Dependancies (CPU version)
 
-- *Install Anaconda*
-Install Anaconda latest version (python 3.6) for windows from [here](https://www.anaconda.com/download/#linux)
+1. **Install Anaconda**
 
-- *Install Tensorflow*
-Run command `pip install tensorflow` in the command prompt
+- Install Anaconda latest version (python 3.6) for windows from [here](https://www.anaconda.com/download/#linux)
 
-- *Install Keras*
-Run command `pip install Keras` inthe command prompt
+2. **Create a conda environment**
+
+- This environment will be used to install Keras. A guide for creating and using conda environments are given [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)
+ - Next steps involving installing tensorflow and keras should be done after activating the environment you created. Activating conda environments is explained in the above guide.
+ - The notebook should also be run in this envrionment.
+
+3. **Install Tensorflow**
+
+- Run command `pip install tensorflow` in the command prompt
+
+4. **Install Keras**
+
+- Run command `pip install Keras` in the command prompt
 
 This steps installs the CPU version of Keras which may be slow in implenting the detector. But it is easier to setup than the GPU version, which involves in installing CUDA dependencies, only possible if .you have a CUDA compatible GPU.
 
-Now you can run the notebook that contain the detecor
+## Steps For Iinstalling Dependancies (GPU version)
+
+1. **Follow step 1 and 2 in the CPU version guide**
+
+2. **Install Tensorflow GPU version**
+
+- A guide for installing tensorflow gpu version is given [here](https://www.tensorflow.org/install/install_windows).
+- Should be careful when installing cuda toolkit and cudnn library.
+
+3. **Install Keras**
+
+- Same as the step 4 of CPU version guide.
+
+Now you can run the notebook that contains the detecor
 
 ## Using the Notebook
 
@@ -25,5 +47,6 @@ Now you can run the notebook that contain the detecor
 
 ## Weights
 
-- Weights for the model used in detecting is given in the file `weights_500_2000000_60`.
+- Weights for the model used in detecting is given in the file `weights_500_2000000_60` (Not included here).
+- Copy the weights file to the directory of the notebook.
 - This is loaded in to the model when you run the notebook.
