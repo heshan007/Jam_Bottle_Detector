@@ -8,7 +8,7 @@
 
 2. **Create a conda environment**
 
-- This environment will be used to install Keras. A guide for creating and using conda environments are given [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)
+- This environment will be used to install Keras. A guide for creating and using conda environments is given [here](https://conda.io/docs/user-guide/tasks/manage-environments.html)
  - Next steps involving installing tensorflow and keras should be done after activating the environment you created. Activating conda environments is explained in the above guide.
  - The notebook should also be run in this envrionment.
 
@@ -35,6 +35,8 @@ This steps installs the CPU version of Keras which may be slow in implenting the
 
 - Same as the step 4 of CPU version guide.
 
+Afetr installing dependencies in either way given above, you should install `dill` in your environment. This is neededto read the pickeld images .
+For this simply run `pip install dill` in the command prompt after activating the environment.
 Now you can run the notebook that contains the detecor
 
 ## Using the Notebook
