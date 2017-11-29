@@ -22,7 +22,7 @@
 
 This steps installs the CPU version of Keras which may be slow in implenting the detector. But it is easier to setup than the GPU version, which involves in installing CUDA dependencies, only possible if .you have a CUDA compatible GPU.
 
-## Steps For Iinstalling Dependancies (GPU version)
+## Steps For Installing Dependancies (GPU version)
 
 1. **Follow step 1 and 2 in the CPU version guide**
 
@@ -47,6 +47,6 @@ Now you can run the notebook that contains the detecor
 
 ## Weights
 
-- Weights for the model used in detecting is given in the file `weights_500_2000000_60` (Not included here).
+- Weights for the model used in detector is given in the file `weights_500_2000000_60` (Not included here).
 - Copy the weights file to the directory of the notebook.
 - This is loaded in to the model when you run the notebook.
