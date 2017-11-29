@@ -35,7 +35,7 @@ This steps installs the CPU version of Keras which may be slow in implenting the
 
 - Same as the step 4 of CPU version guide.
 
-Afetr installing dependencies in either way given above, you should install `dill` in your environment. This is neededto read the pickeld images .
+Afetr installing dependencies in either way given above, you should install `dill` in your environment. This is needed to read the pickeld images .
 For this simply run `pip install dill` in the command prompt after activating the environment.
 Now you can run the notebook that contains the detecor
 
